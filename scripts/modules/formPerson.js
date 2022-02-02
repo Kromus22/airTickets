@@ -47,8 +47,8 @@ const createFormPerson = (n) => {
     name: 'ticket',
     type: 'text',
     placeholder: 'Номер билета',
-    minLength: '10',
-    maxLength: '10',
+    minLength: 10,
+    maxLength: 10,
     required: true,
   })
 
